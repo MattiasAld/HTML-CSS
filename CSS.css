@@ -28,6 +28,7 @@ li {
 		width:350px;
 		margin: 50px auto 0px auto; /* top right bottom left */	
 		background:yellow;
+		z-index:1;
 		
 }
 
@@ -50,9 +51,9 @@ li {
 	
 	font-family:Georgia;
 	transform: rotate(-45deg);
-	width:50px;
+	width:60px;
 	float:left;
-	padding:0px 0px 5px 18px;
+	padding:10px 10px 15px 18px;
 	margin:-40px 0px;
 	overflow:hidden;
 	text-align:right;
