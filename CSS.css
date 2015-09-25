@@ -27,7 +27,7 @@ li {
 		height:20px;
 		width:350px;
 		margin: 50px auto 0px auto; /* top right bottom left */	
-		background:yellow;
+		
 		z-index:1;
 		
 }
@@ -40,13 +40,15 @@ li {
 		height:400px;
 		background:red;
 		box-shadow:10px 12px 8px rgba(0,0,0,0.5);
-		border-radius:10px 10px 120px 5px;
+		border-radius:20px 20px 120px 50px;
 		padding-top:30px;
 		
 				
 	
 	}
 	
+
+
 .menu ul li {
 	
 	font-family:Georgia;
@@ -72,4 +74,18 @@ li {
 
 
 
+.menu ul li.l1{
+	background:rgba(131,178,51,0.65);
+}
+.menu ul li.l1:hover{
+	background:rgb(131,178,51);
+}
 
+.menu ul li.l2{
+	background:rgba(196,89,30,0.65);
+	float:right;
+}
+.menu ul li.l2:hover{
+	background:rgb(196,89,30);
+
+}
